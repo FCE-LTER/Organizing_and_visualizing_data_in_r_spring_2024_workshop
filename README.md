@@ -8,7 +8,6 @@ Lead Principal Investigator: John Kominoski ([jkominos\@fiu.edu](mailto:jkominos
 Website: <https://fcelter.fiu.edu>\
 GitHub site: <https://github.com/FCE-LTER>\
  \
-
 Materials from the FCE LTER Spring 2024 Organizing and Visualizing Data in R workshop.
 
 **Steps to setup an RStudio project and to run code:**

@@ -1,0 +1,13 @@
+Example notes from code review:
+DPE_diets_stomachs
+•	Line 31 refers to “sample.sizes” but there is no data frame named that. Does this mean to reference “sample.sizes.wide”?
+•	Line 190 tries to unite columns but fails because the Slough column is not present. This  may be because that column is cut out by the select function on line 73.
+
+DPE_TrophP_stomachs (file not included in workshop content)
+•	Lines 320-329 throw an error because of an issue on line 328. It may be that using the across function no longer works as it used to in the original script because I am using a newer version of dplyr. The 	 pairwisePermutationTest is also outputting the Stat and p.value values as characters instead of numeric, and this may also be causing an issue
+
+
+DPE_SIBER_stomach_contents (file not included in workshop content)
+•	Attempting to install tRophicPosition package (which is needed for the library function on line 6) fails because it was removed from CRAN
+•	Installing the devtools package and loading it before writing the following worked but required a bunch of stuff getting installed: install_version("tRophicPosition", version = "0.8.0", repos = "http://cran.us.r-project.org")
+•	Lines 29-32 fail to generate the stomach.habitat.season data frame because the Slough column is missing.

@@ -1,0 +1,3 @@
+Data and R script from Pintar, M.R., N.J. Dorn, J.L. Kline, and J.C. Trexler. 2023. Throw trap and electrofishing data collected during 1996–2022 from the Everglades, Florida, United States for the publication "Contrasting invasion histories and effects of three non-native fishes observed with long-term monitoring data" ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/b5038017157f91ef92ff495dde6122b0 (Accessed 2024-03-14).
+
+Access to the associated paper is restricted by copyright, and it can be found at the following link: https://doi.org/10.1016/j.scitotenv.2022.159245
